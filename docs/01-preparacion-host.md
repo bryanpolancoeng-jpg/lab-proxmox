@@ -4,8 +4,6 @@
 Dejar listo el entorno donde correrá Proxmox VE: una VM dentro de
 VMware Workstation, con virtualización anidada. 
 
-*Para visualizar mejor la documentación, presione "Ctrl + Shift + V"*
-
 ## Equipo host
 - CPU: Ryzen 7 serie 5000
 - RAM: 16 GB
