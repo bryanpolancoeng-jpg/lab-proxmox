@@ -23,7 +23,7 @@ VMware Workstation, con virtualización anidada.
 Virtualización anidada: activé la opción de virtualizar Intel VT-x/AMD-V
 en la configuración del procesador de la VM.
 
-![Configuración de la VM](../imagenes/vm-config.png)
+![Configuración de la VM](../Imagenes/vm-config.png)
 
 ## Problemas que tuve
 Al abrir la VM, me dio un error debido a que windows no podia correr virtualizacion anidada, por lo que me vi obligado a deshabilitar "core isolation" en el Windows Defender. Con eso, ya pude entrar a la VM sin problemas.
