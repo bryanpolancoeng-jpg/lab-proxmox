@@ -25,7 +25,7 @@ En el resultado de `ip a` podemos ver la IP con la que accederemos desde el nave
 Además, en la parte superior de la Bash ya se indica la URL y el puerto que se utilizan.
 En nuestro caso es: `https://192.168.100.2:8006/`
 
-![Panel de Proxmox](../Imagenes/proxmox-panel.png)
+![Error en la tarea Update package database](../Imagenes/proxmox-panel.png)
 
 En el panel se observa una tarea en rojo: **Update package database**, con el mensaje
 `TASK ERROR: command 'apt-get update' failed: exit code 100`.
@@ -35,7 +35,7 @@ Este error ocurre porque Proxmox viene configurado por defecto con los repositor
 Proxmox rechaza la conexión (`401 Unauthorized`) y la actualización de paquetes falla.
 No indica un problema con la instalación ni con la red.
 
-La solución se documenta en [03 - Interfaz web y configuración inicial](03-interfaz-web-y-config-inicial.md).
+La solución se documenta en [03 - Interfaz web y configuración inicial](../docs/03-interfaz%20web-y-config-inicial.md).
 
 
 
