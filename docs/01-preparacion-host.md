@@ -16,7 +16,7 @@ VMware Workstation, con virtualización anidada.
 | vCPU    |4      |
 | RAM     |8 GB   |
 | Disco   | 250 GB|
-| Red     | Puente (bridged) |
+| Red     | NAT   |
 
 Virtualización anidada: activé la opción de virtualizar Intel VT-x/AMD-V
 en la configuración del procesador de la VM.
